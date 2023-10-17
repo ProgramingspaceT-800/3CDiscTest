@@ -48,7 +48,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
 
-          <link rel="icon" href="https://rocketseat.com.br/favicon.ico" />
+          <link rel="icon" href="https://github.com/ProgramingspaceT-800/3CDisc-API/blob/main/react-nextjs-typescript-structure/src/assets/logo%20plataforma.png?raw=true" />
         </Head>
         <body>
           <Main />
