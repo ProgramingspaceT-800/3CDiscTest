@@ -131,7 +131,7 @@ const Home: React.FC = () => {
                 className={`campaign-card${expandedBase === bases[baseName] ? ' clicked' : ''}`}
                 onClick={() => toggleDetails(bases[baseName])}
               >
-  <div className={`base ${parseFloat(baseData[bases[baseName]][0].completed_percentage) >= 90 ? 'com-aviso' : ''}`}>{baseName}</div>
+<div className={`base ${baseData[bases[baseName]] && baseData[bases[baseName]].length > 0 && parseFloat(baseData[bases[baseName]][0].completed_percentage) >= 90 ? 'com-aviso' : ''}`}>{baseName}</div>
                 {expandedBase === bases[baseName] && (
                   <div className="campaign-percentages">
                     {baseData[bases[baseName]]?.map((post: any) => (
