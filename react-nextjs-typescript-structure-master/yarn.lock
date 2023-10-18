@@ -4249,7 +4249,7 @@
   "resolved" "https://registry.npmjs.org/next-tick/-/next-tick-1.1.0.tgz"
   "version" "1.1.0"
 
-"next@9.5.2":
+"next@^9.5.2":
   "integrity" "sha512-wasNxEE4tXXalPoUc7B5Ph3tpByIo7IqodE9iHhp61B/3/vG2zi2BGnCJjZQwFeuotUEQl93krz/0Tp4vd0DsQ=="
   "resolved" "https://registry.npmjs.org/next/-/next-9.5.2.tgz"
   "version" "9.5.2"
