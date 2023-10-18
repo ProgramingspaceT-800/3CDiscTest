@@ -5,9 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "next start"
   },
   "dependencies": {
     "@types/axios": "^0.14.0",
@@ -38,6 +36,5 @@
     "gh-pages": "^6.0.0",
     "prettier": "^2.1.0",
     "typescript": "^5.2.2"
-  },
-  "homepage": "https://github.com/ProgramingspaceT-800/3CDiscTest"
+  }
 }

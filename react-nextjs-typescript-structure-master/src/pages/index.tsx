@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Container, CardContent } from '../styles/pages/Home';
 import logoPlataforma from '../assets/logo plataforma.png';
-import background from '../assets/background.jpeg'
 
 const Home: React.FC = () => {
   const [bases] = useState({
